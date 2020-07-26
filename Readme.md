@@ -4,10 +4,11 @@ This shell script allows build your own docker registry easily. I created and te
 
 ##  Instructions
 
- 1. Create your own fork from this repository and replace "domain.com" string with your own domain. 
- 2. Get clone from your fork on your initial server. (recommended os Ubuntu 18.04)
- 3. Set shell script permission. `chmod +x registry-builder.sh`
- 4. Run script with registry username as first argument. 
+ 1. Create your own fork from this repository and replace "domain.com" string with "yourowndomain.com". 
+ 2. Rename domain.com file as "yourowndomain.com".
+ 3. Get clone from your fork on your initial server. (recommended os Ubuntu 18.04)
+ 4. Set shell script permission. `chmod +x registry-builder.sh`
+ 5. Run script with registry username as first argument. 
   `./registry-builder.sh registryAdmin`
- 5. Script may cause prompts during process.
+ 6. Script may cause prompts during process.
  
