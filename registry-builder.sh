@@ -34,11 +34,6 @@ sudo mv domain.com /etc/nginx/sites-available/domain.com
 sudo ln -s /etc/nginx/sites-available/domain.com /etc/nginx/sites-enabled/
 mv nginx.conf /etc/nginx/nginx.conf
 
-# set up apache2 authentication
-sudo apt install apache2-utils
-sudo mkdir ~/docker-registry/auth && cd $_
-htpasswd -Bc registry.password $1
-
 # get docker-compose yaml file for registry
 wget docker-compose.yaml
 
