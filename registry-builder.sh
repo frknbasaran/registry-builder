@@ -40,7 +40,6 @@ sudo mkdir ~/docker-registry/auth && cd $_
 htpasswd -Bc registry.password $1
 
 # get docker-compose yaml file for registry
-cd /root/docker-registry
 wget docker-compose.yaml
 
 # restart nginx
